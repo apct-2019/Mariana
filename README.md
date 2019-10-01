@@ -6,7 +6,7 @@ Antena é um dispositivo que irradia ou recebe ondas de rádio, no caso do proje
 
 - Impedância de entrada
 - VSWR
-- Diagrama de radiação (obtido de forma não ideal)
+- Diagrama de irradiação (obtido de forma não ideal)
 
 
 ![](radiacao_antena.JPG)
@@ -19,7 +19,7 @@ Antena é um dispositivo que irradia ou recebe ondas de rádio, no caso do proje
 
   <p>A antena vista como um elemento de circuito é um sistema ressonante, por isso é necessário que a impedância de entrada esteja adaptada a isso. Ela é então utilizada como um transformador de impedância entre a linha de transmissão e o espaço livre.<p>
   <p>O VSWR (Voltage Standing Wave Ratio) é um parâmetro que redimensiona o parâmetro s11 da antena, que é o coeficiente de reflexão de tensão, ou seja, representa a potência que não foi transmitida (que refletiu e voltou).<p>
-  <p>O diagrama de radiação mostra as direções nas quais a antena irradia/recebe ondas eletromagnéticas com mais eficiência, deve ser obtido em um meio sem interferência física de outros objetos.<p>
+  <p>O diagrama de irradiação mostra as direções nas quais a antena irradia/recebe ondas eletromagnéticas com mais eficiência, deve ser obtido em um meio sem interferência física de outros objetos.<p>
   <p>Diretividade é a relação entre a densidade de potência criada em uma dada direção e a densidade de potência de uma antena isotrópica, determina a capacidade de uma antena de concentrar a energia irradiada em uma direção. No caso do projeto, ela é omnidirecional.<p>
   <p>O ganho possui a mesma definição da diretividade, mas leva em conta a potência fornecida pela antena.<p> 
   <p>A polarização se refere à orientação dos campos elétrico e magnético em relação à Terra. A polarização linear vertical (campo elétrico vertical em relação à Terra) é a preferível nas faixas de VHF onde as antenas são mais curtas.<p> 
