@@ -4,6 +4,7 @@
 
 Antena é um dispositivo que irradia ou recebe ondas de rádio, no caso do projeto do receptor a função desta é receber um sinal de rádio AM. Para o projeto de uma antena são importantes os seguintes parâmetros:
 
+- Conector: BNC
 - Impedância de entrada
 - VSWR
 - Diagrama de irradiação (obtido de forma não ideal)
