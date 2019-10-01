@@ -4,15 +4,10 @@
 
 Antena é um dispositivo que irradia ou recebe ondas de rádio, no caso do projeto do receptor a função desta é receber um sinal de rádio AM. Para o projeto de uma antena são importantes os seguintes parâmetros:
 
-- Conector: BNC
+- Conector
 - Impedância de entrada
 - VSWR
 - Diagrama de irradiação (obtido de forma não ideal)
-
-
-![](radiacao_antena.JPG)
-
-
 - Diretividade
 - Largura de feixe
 - Ganho
@@ -30,6 +25,8 @@ Antena é um dispositivo que irradia ou recebe ondas de rádio, no caso do proje
 
 ## ANTENA ICOM FAB01AR (IMBEL)
 
+- Conector: BNC
+
 - Impedância de entrada 50Ohms
 
 - Range de frequências: 108 - 137 MHz
@@ -38,6 +35,10 @@ Antena é um dispositivo que irradia ou recebe ondas de rádio, no caso do proje
 Para encontrar o diagrama de radiação da antena no plano vertical, é necessário variar seu ângulo em relação ao transmissor de 0°(paalela apontada para cima) a 180° (paralela apontada para baixo) e depois espelhar esses valores para o intervalo de 180° a 360°.
 Tais valores encontrados são os ganhos relativos. Para determinar o ganho real para cada ângulo de inclinação, é feito um somatório (S) 
 de todos os ganhos relativos, e para cada ângulo, seu ganho relativo é dividido por S. 
+
+
+![](radiacao_antena.JPG)
+
 
 - Diretividade: Omnidirecional
 
@@ -71,4 +72,4 @@ de todos os ganhos relativos, e para cada ângulo, seu ganho relativo é dividid
 
 ## Antena escolhida para o projeto
 
-  <p>Foi escolhida inicialmente a antena Kathrein K512631, por falta de informações em relação à antena disponibilizada para uso real. Após análise completa da antena ICOM FAB01AR (disponibilizada pela IMBEL) esta será escolhida para uso ou descartada em definitivo.<p>
+  //<p>Foi escolhida a antena ICOM FAB01AR, pois atende às especificações e está disponível para uso.<p>
