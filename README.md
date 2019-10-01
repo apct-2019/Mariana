@@ -7,7 +7,11 @@ Antena é um dispositivo que irradia ou recebe ondas de rádio, no caso do proje
 - Impedância de entrada
 - VSWR
 - Diagrama de radiação (obtido de forma não ideal)
+
+
 ![](radiacao_antena.JPG)
+
+
 - Diretividade
 - Largura de feixe
 - Ganho
