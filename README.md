@@ -7,7 +7,7 @@ Antena é um dispositivo que irradia ou recebe ondas de rádio, no caso do proje
 - Conector
 - Impedância de entrada
 - VSWR
-- Diagrama de irradiação (obtido de forma não ideal)
+- Diagrama de irradiação 
 - Diretividade
 - Largura de feixe
 - Ganho
@@ -32,13 +32,17 @@ Antena é um dispositivo que irradia ou recebe ondas de rádio, no caso do proje
 - Range de frequências: 108 - 137 MHz
 
 - Diagrama de radiação e Ganho: como a antena é omnidirecional e simétrica, os valores medidos no plano horizontal são iguais (formam um círculo).
-Para encontrar o diagrama de radiação da antena no plano vertical, é necessário variar seu ângulo em relação ao transmissor de 0°(paalela apontada para cima) a 180° (paralela apontada para baixo) e depois espelhar esses valores para o intervalo de 180° a 360°.
-Tais valores encontrados são os ganhos relativos. Para determinar o ganho real para cada ângulo de inclinação, é feito um somatório (S) 
-de todos os ganhos relativos, e para cada ângulo, seu ganho relativo é dividido por S. 
+Para encontrar o diagrama de radiação da antena no plano vertical, é necessário variar seu ângulo em relação ao transmissor de 90°(paralela apontada para cima) a 270° (paralela apontada para baixo) e depois espelhar esses valores para o intervalo de 270° a 90°.
+Tais valores encontrados são os ganhos relativos e o diagrama foi obtido de forma não ideal, em uma sala fechada com obstáculos.
 
 
 ![](radiacao_antena.JPG)
 
+
+A partir dos valores medidos no experimento, foi possível plotar o diagrama acima, onde a cada valor de perda medido foi adicionado 85dB, de forma que o menor valor se tornasse 0dB. É possível ver que a direção onde há menor perda é em torno de 60° e o ganho calculado da antena nessa faixa é em média 2dB. E a direção com maior perda é em 270°, como esperado, pois a antena estaria apontando para o chão.
+
+O alcance da antena pode ser calculado a partir da equação: 
+![](eq.JPG)
 
 - Diretividade: Omnidirecional
 
