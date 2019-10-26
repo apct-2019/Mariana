@@ -76,4 +76,4 @@ O alcance da antena pode ser calculado a partir da equação:
 
 ## Antena escolhida para o projeto
 
-  //<p>Foi escolhida a antena ICOM FAB01AR, pois atende às especificações e está disponível para uso.<p>
+  <p>Foi escolhida a antena ICOM FAB01AR, pois atende às especificações e está disponível para uso.<p>
